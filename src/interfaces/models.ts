@@ -70,3 +70,32 @@ export type TPositionsCollection = {
   cousinType:ECousinType,
   timeOfDelivery:TMinutes
 };
+
+export interface TrainStation {
+  name: string,
+  //time of day in hours+minutes as string  12:30=>1230, 0:10 => 10 of arrived time MSK
+  arrive:number,
+  //time of day in hours+minutes as string  12:30=>1230, 0:10 => 10 of arrived time MSK
+  left:number,
+  day:number,
+  platform?:number,
+  path?:number
+
+}
+
+
+export interface TrainTrack{
+  number:string,     //  id
+  name: string,
+  stations:TrainStation[]
+}
+export interface ConcreteTrainTrack extends TrainTrack{
+  dayOfStart:string //  id
+}
+
+export interface IPassenger {
+  name:string,
+  ticket: string,
+  trainDayOfStart:string,
+  trainNumber:string
+}
