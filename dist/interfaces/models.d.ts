@@ -7,22 +7,24 @@ export interface ITimeSlots {
     to: DayHour;
 }
 export declare enum ECousinFlags {
-    cosher = 0,
-    vegan = 1,
-    halyal = 2,
-    fish = 3,
-    seafood = 4
+    cosher = "cosher",
+    vegan = "vegan",
+    halyal = "halyal",
+    fish = "fish",
+    seafood = "seafood"
 }
 export declare enum EDishType {
-    salad = 0,
-    main = 1,
-    soup = 2,
-    drink = 3
+    snack = "snack",
+    salad = "salad",
+    main = "main",
+    desert = "desert",
+    soup = "soup",
+    drink = "drink"
 }
 export declare enum ECousinType {
-    europian = 0,
-    russian = 1,
-    east = 2
+    europian = "europian",
+    russian = "russian",
+    east = "east"
 }
 export declare type TMinutes = number;
 export declare type TPositionsCollection = {

@@ -38,24 +38,27 @@ export interface ITimeSlots {
 
 
 export enum ECousinFlags {
-  cosher,
-  vegan,
-  halyal,
-  fish,
-  seafood
+  cosher = "cosher",
+  vegan = "vegan",
+  halyal = "halyal",
+  fish = "fish",
+  seafood = "seafood",
 }
 
 export enum EDishType {
-  salad,
-  main,
-  soup,
-  drink
+  snack = "snack",
+  salad = "salad",
+  main = "main",
+  desert = "desert",
+  soup = "soup",
+  drink = "drink"
 }
 
+
 export enum ECousinType {
-  europian,
-  russian,
-  east
+  europian = "europian",
+  russian = "russian",
+  east = "east",
 }
 
 export type TMinutes = number;
