@@ -11,7 +11,8 @@ export declare enum ECousinFlags {
     vegan = "vegan",
     halyal = "halyal",
     fish = "fish",
-    seafood = "seafood"
+    seafood = "seafood",
+    diet = "diet"
 }
 export declare enum EDishType {
     snack = "snack",

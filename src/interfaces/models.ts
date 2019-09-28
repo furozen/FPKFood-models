@@ -43,6 +43,7 @@ export enum ECousinFlags {
   halyal = "halyal",
   fish = "fish",
   seafood = "seafood",
+  diet = "diet"
 }
 
 export enum EDishType {

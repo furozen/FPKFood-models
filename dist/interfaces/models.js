@@ -7,6 +7,7 @@ var ECousinFlags;
     ECousinFlags["halyal"] = "halyal";
     ECousinFlags["fish"] = "fish";
     ECousinFlags["seafood"] = "seafood";
+    ECousinFlags["diet"] = "diet";
 })(ECousinFlags = exports.ECousinFlags || (exports.ECousinFlags = {}));
 var EDishType;
 (function (EDishType) {

@@ -1,0 +1,1 @@
+{"version":3,"file":"PassengersDataProvider.js","sourceRoot":"","sources":["../src/PassengersDataProvider.ts"],"names":[],"mappings":";;AAEA,MAAa,sBAAsB;IAEjC,oBAAoB,CAAC,MAAa;QAEhC,MAAM,UAAU,GAAe;YAC7B,EAAE,IAAI,EAAC,mBAAmB;gBACxB,MAAM,EAAC,YAAY;gBACnB,WAAW,EAAC,MAAM;gBAClB,eAAe,EAAC,YAAY;aAC7B;SACF,CAAA;IACH,CAAC;CAGF;AAdD,wDAcC"}
