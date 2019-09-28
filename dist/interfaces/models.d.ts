@@ -34,3 +34,25 @@ export declare type TPositionsCollection = {
     cousinType: ECousinType;
     timeOfDelivery: TMinutes;
 };
+export interface TrainStation {
+    name: string;
+    arrive: number;
+    left: number;
+    day: number;
+    platform?: number;
+    path?: number;
+}
+export interface TrainTrack {
+    number: string;
+    name: string;
+    stations: TrainStation[];
+}
+export interface ConcreteTrainTrack extends TrainTrack {
+    dayOfStart: string;
+}
+export interface IPassenger {
+    name: string;
+    ticket: string;
+    trainDayOfStart: string;
+    trainNumber: string;
+}

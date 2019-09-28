@@ -4,4 +4,8 @@ function __export(m) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./interfaces/"));
+var PassengersDataProvider_1 = require("./PassengersDataProvider");
+exports.PassengersDataProvider = PassengersDataProvider_1.PassengersDataProvider;
+var TrainDataProvider_1 = require("./TrainDataProvider");
+exports.TrainDataProvider = TrainDataProvider_1.TrainDataProvider;
 //# sourceMappingURL=index.js.map
